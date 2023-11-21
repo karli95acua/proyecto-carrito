@@ -181,5 +181,6 @@
 @media (max-width: 768px) {
     .glitch {
         font-size: 20px;
+        margin-right: 3rem;
     }
 }
