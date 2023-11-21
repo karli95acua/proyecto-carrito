@@ -178,3 +178,8 @@
     animation-direction: alternate; /* La animación se alterna entre los estilos de keyframe */
 }
 
+@media (max-width: 768px) {
+    .glitch {
+      font-size: 20px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+    }
+}

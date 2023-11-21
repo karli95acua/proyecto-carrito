@@ -33,3 +33,13 @@
     width: 100%; /* Asume el ancho total de su contenedor padre */
     padding: 0 1rem; /* Agrega un padding para evitar que el botón se pegue a los bordes */
 }
+
+@media (max-width: 768px) {
+    .Card {
+      width: 100%; /* Las tarjetas ocupan todo el ancho disponible */
+      height: auto; /* Altura automática para adaptarse al contenido */
+    }
+    .CardImg {
+      height: auto; /* Altura automática para mantener la proporción */
+    }
+}
