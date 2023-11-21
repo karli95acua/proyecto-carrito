@@ -1,0 +1,35 @@
+.Card {
+    margin-top: 10px;
+    padding-bottom: 1rem;
+    background-color: rgb(30, 30, 30) !important;
+    color: azure !important;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    height: 750px; /* Asegura que todas las tarjetas tengan la misma altura */
+    width: 100%; /* Ancho proporcional al contenedor padre, puedes poner un ancho fijo si lo prefieres */
+}
+
+.CardBody {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Asegura que el contenido interno se distribuya de arriba a abajo */
+}
+
+.CardImg {
+    height: 250px; /* Altura fija para las imágenes */
+    width: 100%; /* Ancho fijo para las imágenes */
+    object-fit: cover; /* Ajusta el tamaño de la imagen para cubrir el área sin perder su relación de aspecto */
+    object-position: center; /* Centra la imagen dentro de su contenedor */
+}
+
+
+.BotonProducto {
+    display: flex;
+    justify-content: center; /* Centra el botón horizontalmente */
+    align-items: center; /* Centra el botón verticalmente */
+    width: 100%; /* Asume el ancho total de su contenedor padre */
+    padding: 0 1rem; /* Agrega un padding para evitar que el botón se pegue a los bordes */
+}

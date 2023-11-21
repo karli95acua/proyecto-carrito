@@ -1,0 +1,32 @@
+{
+    "listaProductos":[
+        {
+            "titulo": "Headphones White and Silver",
+            "imagen": "https://home.ripley.cl/store/Attachment/WOP/D347/2000376993690/2000376993690_2.jpg",
+            "descripcion": "Audífonos con bluetooth",
+            "precio": "39.000",
+            "stock": "4"
+        },
+        {
+            "titulo": "Ipad Pro 11",
+            "imagen": "https://www.costco.com.mx/medias/sys_master/products/hf5/h41/132155766702110.jpg",
+            "descripcion": "Ipad Pro 11 refaccionado",
+            "precio": "239.000",
+            "stock": "5"
+        },
+        {
+            "titulo": "Super Nintendo DS",
+            "imagen": "https://circuitbank.com/cdn/shop/products/D_NQ_NP_852847-MLA46922640820_072021-O_500x.jpg?v=1677979131",
+            "descripcion": "Nintendo DS retro refaccionada",
+            "precio": "99.000",
+            "stock": "2"
+        },
+        {
+            "titulo": "Ipod 1",
+            "imagen": "https://www.imore.com/sites/imore.com/files/styles/large/public/topic_images/2014/topic_ipod_classic.png",
+            "descripcion": "Artículo retro",
+            "precio": "100.000",
+            "stock": "8"
+        }
+    ]
+}
