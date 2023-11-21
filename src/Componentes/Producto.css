@@ -1,45 +1,57 @@
 .Card {
     margin-top: 10px;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
     background-color: rgb(30, 30, 30) !important;
     color: azure !important;
     position: relative;
     z-index: 10;
     display: flex;
     flex-direction: column;
-    height: 750px; /* Asegura que todas las tarjetas tengan la misma altura */
-    width: 100%; /* Ancho proporcional al contenedor padre, puedes poner un ancho fijo si lo prefieres */
+    height: 750px;
+    width: 100%;
 }
 
 .CardBody {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Asegura que el contenido interno se distribuya de arriba a abajo */
+    justify-content: space-between;
 }
 
 .CardImg {
-    height: 250px; /* Altura fija para las imágenes */
-    width: 100%; /* Ancho fijo para las imágenes */
-    object-fit: cover; /* Ajusta el tamaño de la imagen para cubrir el área sin perder su relación de aspecto */
-    object-position: center; /* Centra la imagen dentro de su contenedor */
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
-
 
 .BotonProducto {
     display: flex;
-    justify-content: center; /* Centra el botón horizontalmente */
-    align-items: center; /* Centra el botón verticalmente */
-    width: 100%; /* Asume el ancho total de su contenedor padre */
-    padding: 0 1rem; /* Agrega un padding para evitar que el botón se pegue a los bordes */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 1rem;
 }
 
-@media (max-width: 768px) {
-    .Card {
-      width: 100%; /* Las tarjetas ocupan todo el ancho disponible */
-      height: auto; /* Altura automática para adaptarse al contenido */
+@media (max-width: 992px) {
+    .glitch {
+        font-size: 28px;
+        margin-left: 2rem;
     }
-    .CardImg {
-      height: auto; /* Altura automática para mantener la proporción */
+}
+
+
+@media (max-width: 768px) {
+    .glitch {
+        font-size: 20px;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .glitch {
+        font-size: 16px;
+        margin-left: 0.5rem;
     }
 }

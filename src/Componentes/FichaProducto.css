@@ -7,7 +7,7 @@
 
 @media (max-width: 768px) {
     .modalFooter {
-      justify-content: center; /* Centrar los botones en la ventana modal */
+        justify-content: center;
     }
 }
 

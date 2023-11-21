@@ -172,14 +172,14 @@
 
 .glitch:after,
 .glitch:before {
-    animation-duration: 10s; /* Animación más lenta */
-    animation-timing-function: linear; /* Avance de la animación de manera uniforme */
-    animation-iteration-count: infinite; /* La animación se repite indefinidamente */
-    animation-direction: alternate; /* La animación se alterna entre los estilos de keyframe */
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 @media (max-width: 768px) {
     .glitch {
-      font-size: 20px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+        font-size: 20px;
     }
 }
