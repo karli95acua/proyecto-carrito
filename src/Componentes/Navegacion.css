@@ -12,6 +12,8 @@
     font-weight: 900;
     position: relative;
     font-family: 'Varela', sans-serif;
+    margin-left: 0;
+    transform: translateX(0);
 }
 
 .glitch:after {
@@ -180,7 +182,16 @@
 
 @media (max-width: 768px) {
     .glitch {
-        font-size: 20px;
-        margin-right: 3rem;
+        font-size: 19px;
+        margin-left:0;
+    }
+    .glitch:after, .glitch:before {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .glitch {
+        font-size: 18px;
     }
 }
